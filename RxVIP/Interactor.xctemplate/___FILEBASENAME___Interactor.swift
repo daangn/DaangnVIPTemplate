@@ -22,7 +22,7 @@ protocol ___VARIABLE_sceneName___InteractorOutputLogic {
 
 protocol ___VARIABLE_sceneName___DataStore {
 
-    var title: String { get set }
+    var someDomainStore: ActionRelay<Any> { get set }
 }
 
 class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorInputLogic & ___VARIABLE_sceneName___DataStore {
@@ -31,10 +31,10 @@ class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorInpu
     var input: PublishRelay<___VARIABLE_sceneName___Models.Model.Request> = .init()
 
     // MARK: DataStore
-    var title: String = ""
+    var someDomainStore: ActionRelay<Any> = .init()
   
     // MARK: Workers
-    // var worker: TestWorker
+    // private var worker: TestWorker
 
     // init(worker: TestWorker...)
 }
