@@ -17,8 +17,8 @@ class ___VARIABLE_sceneName___ViewController: BaseASViewController {
 
     // MARK: VIP
 
-  public var interactor: ___VARIABLE_sceneName___InteractorLogic?
-  public var router: (___VARIABLE_sceneName___RouterLogic & ___VARIABLE_sceneName___DataPassing)?
+  public var interactor: ___VARIABLE_sceneName___BusinessLogic?
+  public var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
 
   override init() {
     super.init()

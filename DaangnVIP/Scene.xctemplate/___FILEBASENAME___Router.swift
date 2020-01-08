@@ -9,7 +9,7 @@
 
 import Foundation
 
-protocol ___VARIABLE_sceneName___RouterLogic: class {
+protocol ___VARIABLE_sceneName___RoutingLogic: class {
 
 }
 
@@ -21,10 +21,11 @@ protocol ___VARIABLE_sceneName___DataPassing: class {
 final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing {
 
   var dataStore: ___VARIABLE_sceneName___DataStore?
-  weak var viewController: ___VARIABLE_sceneName___ViewController?
+  @Lateinit
+  var viewController: ___VARIABLE_sceneName___ViewController
 
 }
 
-extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterLogic {
+extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RoutingLogic {
 
 }

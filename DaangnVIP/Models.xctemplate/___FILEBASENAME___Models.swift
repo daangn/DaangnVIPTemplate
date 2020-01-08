@@ -6,20 +6,20 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-struct ___VARIABLE_sceneName___Models {
+enum ___VARIABLE_sceneName___Models {
 
-    struct Model {
-        
-        struct Request {
+  enum Model {
 
-        }
+    struct Request {
 
-        struct Response {
-
-        }
-
-        struct ViewModel {
-          
-        }
     }
+
+    struct Response {
+
+    }
+
+    struct ViewModel {
+          
+    }
+  }
 }

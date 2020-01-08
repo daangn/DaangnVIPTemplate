@@ -9,12 +9,13 @@
 
 import Foundation
 
-protocol ___VARIABLE_sceneName___PresenterLogic: class {
+protocol ___VARIABLE_sceneName___PresentationLogic: class {
 
 }
 
-final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterLogic {
+final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
 
-  weak var view: ___VARIABLE_sceneName___DisplayLogic?
+  @Lateinit
+  var view: ___VARIABLE_sceneName___DisplayLogic
 
 }

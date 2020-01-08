@@ -9,7 +9,7 @@
 
 import Foundation
 
-protocol ___VARIABLE_sceneName___InteractorLogic: class {
+protocol ___VARIABLE_sceneName___BusinessLogic: class {
 
 }
 
@@ -19,11 +19,13 @@ protocol ___VARIABLE_sceneName___DataStore: class {
 
 final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___DataStore {
 
-  public var worker: ___VARIABLE_sceneName___WorkerLogic?
-  public var presenter: ___VARIABLE_sceneName___PresenterLogic?
+  @Lateinit
+  public var worker: ___VARIABLE_sceneName___WorkerLogic
+  @Lateinit
+  public var presenter: ___VARIABLE_sceneName___PresentationLogic
     
 }
 
-extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorLogic {
+extension ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic {
 
 }

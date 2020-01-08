@@ -9,7 +9,7 @@
 
 import Foundation
 
-protocol ___VARIABLE_sceneName___RouterLogic: class {
+protocol ___VARIABLE_sceneName___RoutingLogic: class {
 
 }
 
@@ -25,6 +25,6 @@ final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing 
 
 }
 
-extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RouterLogic {
+extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RoutingLogic {
 
 }

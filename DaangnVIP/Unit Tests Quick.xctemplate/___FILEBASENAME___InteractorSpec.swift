@@ -17,7 +17,7 @@ class ___VARIABLE_sceneName___InteractorSpec: QuickSpec {
 
   // MARK: - Test Double Objects
 
-  class ___VARIABLE_sceneName___PresenterSpy: ___VARIABLE_sceneName___PresenterLogic {
+  class ___VARIABLE_sceneName___PresenterSpy: ___VARIABLE_sceneName___PresentationLogic {
 
     // var somethingCalled: Int = 0
     // var somethingStub: Value?
