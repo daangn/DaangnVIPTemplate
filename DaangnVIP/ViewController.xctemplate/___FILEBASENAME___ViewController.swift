@@ -54,7 +54,7 @@ class ___VARIABLE_sceneName___ViewController: BaseASViewController {
   }
 }
 
-// MARK: - Display Logic
+// MARK: - ___VARIABLE_sceneName___DisplayLogic
 
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___DisplayLogic {
 

@@ -7,7 +7,7 @@
 //
 //
 
-import Foundation
+import UIKit
 
 protocol ___VARIABLE_sceneName___RoutingLogic: class {
 
@@ -20,9 +20,9 @@ protocol ___VARIABLE_sceneName___DataPassing: class {
 
 final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing {
 
-  var dataStore: ___VARIABLE_sceneName___DataStore?
   @Lateinit
   var viewController: ___VARIABLE_sceneName___ViewController
+  var dataStore: ___VARIABLE_sceneName___DataStore?
 
   deinit {
     debugPrint("DEINIT: ___VARIABLE_sceneName___Router")
