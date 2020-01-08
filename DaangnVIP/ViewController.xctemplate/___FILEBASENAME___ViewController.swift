@@ -15,21 +15,27 @@ protocol ___VARIABLE_sceneName___DisplayLogic: class {
 
 class ___VARIABLE_sceneName___ViewController: BaseASViewController {
 
-    // MARK: VIP
+  // MARK: VIP
 
-  public var interactor: ___VARIABLE_sceneName___BusinessLogic?
-  public var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
+  @Lateinit
+  var interactor: ___VARIABLE_sceneName___BusinessLogic
+  @Lateinit
+  var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)
+
+  // MARK: Initializing
 
   override init() {
     super.init()
-    self.setupVIPCycle()
+    self.configure()
   }
 
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
 
-  private func setupVIPCycle() {
+  // MARK: Configure
+
+  private func configure() {
     let viewController = self
     let interactor = ___VARIABLE_sceneName___Interactor.init()
     let presenter = ___VARIABLE_sceneName___Presenter.init()

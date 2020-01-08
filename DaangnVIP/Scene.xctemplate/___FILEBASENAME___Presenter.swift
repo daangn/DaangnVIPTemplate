@@ -7,15 +7,24 @@
 //
 //
 
-import Foundation
+import UIKit
 
 protocol ___VARIABLE_sceneName___PresentationLogic: class {
 
 }
 
-final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
+final class ___VARIABLE_sceneName___Presenter {
 
   @Lateinit
   var view: ___VARIABLE_sceneName___DisplayLogic
+
+  deinit {
+    debugPrint("DEINIT: ___VARIABLE_sceneName___Presenter")
+  }
+}
+
+// MARK: - ___VARIABLE_sceneName___PresentationLogic
+
+extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresentationLogic {
 
 }

@@ -24,7 +24,12 @@ final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing 
   @Lateinit
   var viewController: ___VARIABLE_sceneName___ViewController
 
+  deinit {
+    debugPrint("DEINIT: ___VARIABLE_sceneName___Router")
+  }
 }
+
+// MARK: - ___VARIABLE_sceneName___RoutingLogic
 
 extension ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___RoutingLogic {
 

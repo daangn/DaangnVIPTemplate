@@ -7,10 +7,15 @@
 //
 //
 
+import Foundation
+
 class ___VARIABLE_sceneName___Worker {
   
+  deinit {
+    debugPrint("DEINIT: ___VARIABLE_sceneName___Worker")
+  }
+
   func doSomeWork() {
 
   }
-  
 }
