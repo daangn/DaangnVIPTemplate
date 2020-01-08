@@ -16,3 +16,5 @@ To uninstall the RxCleanSwift Xcode templates, run:
 # More
 To learn more about Clean Swift and the VIP cycle, read:
 http://clean-swift.com/clean-swift-ios-architecture
+Daangn convension, read:
+https://github.com/daangn/hoian-ios/issues/1492
