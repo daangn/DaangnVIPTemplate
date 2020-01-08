@@ -20,8 +20,7 @@ protocol ___VARIABLE_sceneName___DataPassing: class {
 
 final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing {
 
-  @Lateinit
-  var viewController: ___VARIABLE_sceneName___ViewController
+  weak var viewController: ___VARIABLE_sceneName___ViewController?
   var dataStore: ___VARIABLE_sceneName___DataStore?
 
   deinit {

@@ -15,8 +15,7 @@ protocol ___VARIABLE_sceneName___PresentationLogic: class {
 
 final class ___VARIABLE_sceneName___Presenter {
 
-  @Lateinit
-  var view: ___VARIABLE_sceneName___DisplayLogic
+  weak var view: ___VARIABLE_sceneName___DisplayLogic?
 
   deinit {
     debugPrint("DEINIT: ___VARIABLE_sceneName___Presenter")

@@ -17,10 +17,8 @@ class ___VARIABLE_sceneName___ViewController: BaseASViewController {
 
   // MARK: VIP
 
-  @Lateinit
-  var interactor: ___VARIABLE_sceneName___BusinessLogic
-  @Lateinit
-  var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)
+  var interactor: ___VARIABLE_sceneName___BusinessLogic?
+  var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
 
   // MARK: Initializing
 
