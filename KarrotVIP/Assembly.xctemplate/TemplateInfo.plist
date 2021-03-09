@@ -54,6 +54,6 @@
 	<key>SortOrder</key>
 	<string>4</string>
   <key>Summary</key>
-  <string>This generates a new Assembly using Uncle Bob's clean architecture. You navigate to other scenes by presenting and dismissing other view controllers here.</string>
+  <string>This generates a new Assembly using Ray's pureDI</string>
 </dict>
 </plist>
