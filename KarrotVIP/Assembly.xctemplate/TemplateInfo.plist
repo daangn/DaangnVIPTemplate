@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MyScene</string>
+	<string>MyAssembly</string>
   <key>Description</key>
   <string>This generates a new Assembly using Uncle Bob's clean architecture. You navigate to other scenes by presenting and dismissing other view controllers here.</string>
   <key>Kind</key>
