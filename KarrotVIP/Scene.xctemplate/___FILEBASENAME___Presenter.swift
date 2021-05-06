@@ -2,7 +2,7 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___PresentationLogic: class {
+protocol ___VARIABLE_sceneName___PresentationLogic: AnyObject {
   
 }
 

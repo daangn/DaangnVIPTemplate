@@ -2,11 +2,11 @@
 
 import Foundation
 
-protocol ___VARIABLE_sceneName___BusinessLogic: class {
+protocol ___VARIABLE_sceneName___BusinessLogic: AnyObject {
 
 }
 
-protocol ___VARIABLE_sceneName___DataStore: class {
+protocol ___VARIABLE_sceneName___DataStore: AnyObject {
 
 }
 

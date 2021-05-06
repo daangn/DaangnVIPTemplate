@@ -2,11 +2,11 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___RoutingLogic: class {
+protocol ___VARIABLE_sceneName___RoutingLogic: AnyObject {
 
 }
 
-protocol ___VARIABLE_sceneName___DataPassing: class {
+protocol ___VARIABLE_sceneName___DataPassing: AnyObject {
 
   var dataStore: ___VARIABLE_sceneName___DataStore? { get set }
 }

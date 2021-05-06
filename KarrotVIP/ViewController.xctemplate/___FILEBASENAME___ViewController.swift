@@ -2,7 +2,7 @@
 
 import KarrotUI
 
-protocol ___VARIABLE_sceneName___DisplayLogic: class {
+protocol ___VARIABLE_sceneName___DisplayLogic: AnyObject {
 
 }
 
