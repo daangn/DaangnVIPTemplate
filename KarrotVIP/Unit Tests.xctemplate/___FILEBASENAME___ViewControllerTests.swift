@@ -1,9 +1,6 @@
 //___FILEHEADER___
 
-import XCTest
-
-import Nimble
-
+import KarrotTestKit
 @testable import Karrot
 
 final class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase {
