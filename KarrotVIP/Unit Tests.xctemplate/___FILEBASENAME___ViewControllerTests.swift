@@ -23,16 +23,19 @@ final class ___VARIABLE_sceneName___ViewControllerTests: XCTestCase {
 
   // MARK: Properties
 
-  var viewController: ___VARIABLE_sceneName___ViewController!
   var interactor: ___VARIABLE_sceneName___InteractorSpy!
   var router: ___VARIABLE_sceneName___RouterSpy!
 
   override func setUp() {
-    self.viewController = ___VARIABLE_sceneName___ViewController()
     self.interactor = ___VARIABLE_sceneName___InteractorSpy()
     self.router = ___VARIABLE_sceneName___RouterSpy()
-    self.viewController.interactor = self.interactor
-    self.viewController.router = self.router
+  }
+
+  func createViewController() -> ___VARIABLE_sceneName___ViewController {
+    return ___VARIABLE_sceneName___ViewController().then {
+      $0.interactor = self.interactor
+      $0.router = self.router
+    }
   }
 }
 
